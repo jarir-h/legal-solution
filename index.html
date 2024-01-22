@@ -232,13 +232,13 @@
                 </div>
             </section>
             <!--    contact   section   -->
-            <section>
+            <section class="my-12">
                 <h3 class="text-5xl text-neutral-900 font-bold text-center pt-8 pb-4">Contact With Us </h3>
                 <p class="text-neutral-500 max-w-xl mx-auto text-center pb-8">There are many variations of passages of
                     Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
                 </p>
                 <div class="flex">
-                    <div class="grid lg:row-span-2">
+                    <div class="grid lg:row-span-2 flex-1">
                         <div class="flex text-center">
                             <div class="border-r-2 bg-[#F3F3F3]  border-[#B68C5A] p-6 space-y-4 rounded-tl-lg">
                                 <span class="text-4xl text-[#B68C5A]"><i class="fa-solid fa-location-dot"></i></span>
@@ -254,7 +254,8 @@
                             </div>
                         </div>
                         <div class="flex text-center">
-                            <div class="border-r-2 border-t-2 bg-[#F3F3F3]  border-[#B68C5A] p-6 space-y-4 rounded-bl-lg">
+                            <div
+                                class="border-r-2 border-t-2 bg-[#F3F3F3]  border-[#B68C5A] p-6 space-y-4 rounded-bl-lg">
                                 <span class="text-4xl text-[#B68C5A]"><i class="fa-solid fa-envelope"></i></span>
                                 <h3 class="font-bold">Address</h3>
                                 <p class="text-neutral-600"> A108 Adam Street, <br>
@@ -266,17 +267,57 @@
                                 <p class="text-neutral-600">+88 01750 00 00 00 <br>
                                     +88 01750 00 00 00</p>
                             </div>
-                        </div>              
+                        </div>
                     </div>
-                    <div>
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
-                        <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                    <div class="flex-1 space-y-8">
+                        <input type="text" placeholder="Your Name"
+                            class="input input-bordered w-full max-w-xs border-0 bg-[#F3F3F3]" />
+                        <input type="text" placeholder="Your Email"
+                            class="input input-bordered w-full max-w-xs border-0 bg-[#F3F3F3]" />
+                        <input type="text" placeholder="Subject"
+                            class="input input-bordered w-full max-w-xs border-0 bg-[#F3F3F3]" />
+                        <input type="text" placeholder="Your Message"
+                            class="input input-bordered input-lg w-full max-w-xs border-0 bg-[#F3F3F3]" />
+                        <input type="button" value="Send Message"
+                            class=" text-white input input-bordered w-full max-w-xs border-0 bg-[#B68C5A]">
                     </div>
                 </div>
             </section>
         </div>
     </header>
+    <footer class="bg-neutral-900 ">
+        <div class="container mx-auto px-8 lg:px-24">
+            <div class="footer p-12 text-base-content text-slate-50"">
+                <div>
+                    <img src="./images/logo.png" alt="">
+                    <p class="w-56 pt-3 text-neutral-400">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+                <nav>
+                    <header class="font-bold text-1xl pb-3 text-white">Usefull Link</header>
+                    <a class="link link-hover text-neutral-400">About us</a>
+                    <a class="link link-hover text-neutral-400">Contact</a>
+                    <a class="link link-hover text-neutral-400">Jobs</a>
+                    <a class="link link-hover text-neutral-400">Press kit</a>
+                </nav>
+                <nav>
+                    <header class="font-bold text-1xl pb-3 text-white">Contact Now</header>
+                    <a class="link link-hover text-neutral-400">555 4th 5t NW, Washington <br>  DC 20530, United States</a>
+                    <a class="link link-hover text-neutral-400">+88 01750 000 000 <br> +88 01750 000 000</a>
+                    <a class="link link-hover text-neutral-400">info@gmail.com <br> info@gmail.com</a>
+                </nav>
+                <form>
+                    <header class="font-bold text-1xl pb-3 text-white">Subscribe</header>
+                    <p class="text-neutral-400 pb-2">Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</p>
+                    <fieldset class="form-control w-80">              
+                        <div class="join">
+                            <input type="text" placeholder="Email Address" class="input input-bordered join-item" />
+                            <button class="btn bg-[#B68C5A] join-item text-white text-2xl"><i class="fa-solid fa-location-arrow"></i></button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
